@@ -15,5 +15,5 @@ def faceDetection(testImg: Array) -> Tuple:
     return faces, grayImg
 
 if __name__ == '__main__':
-    im = cv2.imread('\hari.jpeg')
+    im = cv2.imread("hari.JPEG")
     print(faceDetection(im))
