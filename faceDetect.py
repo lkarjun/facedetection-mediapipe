@@ -13,3 +13,7 @@ def faceDetection(testImg: Array) -> Tuple:
     #Detect Multiscale
     faces = _face.detectMultiScale(grayImg,scaleFactor=1.32,minNeighbors=5)
     return faces, grayImg
+
+if __name__ == '__main__':
+    im = cv2.imread('\hari.jpeg')
+    print(faceDetection(im))
