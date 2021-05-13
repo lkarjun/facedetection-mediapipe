@@ -8,6 +8,6 @@ verify_ssl = true
 [packages]
 opencv-contrib-python = "*"
 opencv-python = "*"
-
+mediapipe = "*"
 [requires]
 python_version = "3.8"
